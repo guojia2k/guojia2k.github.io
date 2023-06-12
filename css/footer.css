@@ -1,0 +1,26 @@
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+    height: 100px;
+}
+
+#footer li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#footer li i {
+    font-size: 26px;
+    color: var(--color-bluesky);
+}
